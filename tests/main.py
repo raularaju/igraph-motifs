@@ -32,8 +32,8 @@ def read_hdf5(arquivo):
                 if(count >= 1):
                     exit
                 print(f'Top-Level Group: {exam_id}')
-                p_4 = [0.1, 0.1, 0, 0.1]
-                p_5 = [0.1, 0.1, 0, 0.1, 0.1]
+                p_4 = [0.1, 0.1, 0.1, 0]
+                p_5 = [0.1, 0.1, 0.1, 0, 0.1]
                 # Iterate through subgroups within the top-level group
                 for subgroup_name, subgroup in top_group.items():
                     if(count >= 1):
